@@ -1,1 +1,11 @@
-/nix/store/j17987mjcinj6rv76g5hz46x9f2bfxy6-home-manager-files/.config/xmobar/title.sh
+#!/bin/sh
+TITLE=$(playerctl -p vlc -s metadata title)
+ARTIST=$(playerctl -p vlc -s metadata artist)
+if [[ $TITLE != "" ]]
+then
+  if [[ $ARTIST != "" ]]
+  then
+    echo -n "${ARTIST}: "
+  fi
+  echo -n $TITLE
+fi

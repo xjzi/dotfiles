@@ -1,1 +1,16 @@
-/nix/store/j17987mjcinj6rv76g5hz46x9f2bfxy6-home-manager-files/.config/xmobar/button.sh
+#!/bin/sh
+STATUS=$(playerctl -p vlc -s status)
+
+# No options if no music is playing
+if [[ $STATUS == "" ]]
+then
+  exit 0
+fi
+
+if [[ $STATUS == "Playing" ]]
+then
+  echo -n "[ pause ]"
+else
+  # The extra space makes it line up with pause in xmobar
+  echo -n "[ play  ]"
+fi
