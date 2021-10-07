@@ -1,5 +1,13 @@
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Modus
+Plug 'ishan9299/modus-theme-vim', {'branch': 'stable'}
+Plug 'tjdevries/colorbuddy.nvim', {'branch': 'master'}
+"Gruvbox
+Plug 'rktjmp/lush.nvim'
+Plug 'ellisonleao/gruvbox.nvim'
+"Moonfly
+Plug 'bluz71/vim-moonfly-colors'
 call plug#end()
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
@@ -35,8 +43,8 @@ nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 
 function! s:show_documentation()
-  if (index(['vim','help'], &filetype) >= 0)
-    execute 'h '.expand('<cword>')
+  if (index(['vim', 'help'], &filetype) >= 0)
+	  execute 'h '.expand('<cword>')
   elseif (coc#rpc#ready())
     call CocActionAsync('doHover')
     execute '!' . &keywordprg . " " . expand('<cword>')
@@ -54,10 +62,10 @@ set number
 
 " Wrap words
 set linebreak
-
 "Make search case insensitive
 set ignorecase
 
+"Swap to tabs
 nnoremap <silent>    <A-1> 1gt <CR>
 nnoremap <silent>    <A-2> 2gt <CR>
 nnoremap <silent>    <A-3> 3gt <CR>
@@ -66,3 +74,7 @@ nnoremap <silent>    <A-5> 5gt <CR>
 nnoremap <silent>    <A-6> 6gt <CR>
 nnoremap <silent>    <A-7> 7gt <CR>
 nnoremap <silent>    <A-8> 8gt <CR>
+
+"Fancy color scheme
+colorscheme moonfly
+set termguicolors
