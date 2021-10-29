@@ -1,14 +1,8 @@
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter', {'branch': 'master'}
-"Modus
-Plug 'ishan9299/modus-theme-vim', {'branch': 'stable'} 
-Plug 'tjdevries/colorbuddy.nvim', {'branch': 'master'}
-"Gruvbox
-Plug 'rktjmp/lush.nvim'
-Plug 'ellisonleao/gruvbox.nvim'
-"Moonfly
 Plug 'bluz71/vim-moonfly-colors'
+Plug 'mhinz/vim-startify'
 call plug#end()
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
@@ -86,3 +80,4 @@ nnoremap <silent>    <A-8> 8gt <CR>
 "Fancy color scheme
 colorscheme moonfly
 set termguicolors
+let g:startify_custom_header = []
