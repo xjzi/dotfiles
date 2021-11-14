@@ -133,6 +133,10 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   -- Use this to launch programs without a key binding.
   , ((modMask, xK_p),
      spawn myLauncher)
+  
+  -- Pause music
+  , ((0, xK_Pause), spawn "playerctl -p vlc play-pause")
+
   --------------------------------------------------------------------
   -- "Standard" xmonad key bindings
   --
