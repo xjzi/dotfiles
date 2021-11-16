@@ -1,1 +1,581 @@
-{"one_seven_visuals":{"panelIndex":0,"seen":false},"fps":{"x":70.0,"y":46.0,"panelIndex":1,"seen":true},"cps":{"position":"bottom_right","y":1.0,"cps_enabled_bl":true,"panelIndex":2,"seen":true,"options":{"rightCLick_bl":true,"showCPSText_bl":false,"shadow_bl":false,"background_bl":false}},"skyblockAddons":{"panelIndex":3,"seen":false,"skyBlockAddonsManaBarChild":{"x":40.0,"y":-40.0,"panelIndex":0,"seen":false},"skyBlockAddonsManaTextChild":{"x":40.0,"y":-44.0,"panelIndex":0,"seen":false},"skyBlockAddonsHealthBarChild":{"x":-38.0,"y":-40.0,"panelIndex":0,"seen":false},"skyBlockAddonsHealthTextChild":{"x":-40.0,"y":-44.0,"panelIndex":0,"seen":false},"skyBlockAddonsDefenseIconChild":{"x":19.0,"y":-40.0,"panelIndex":0,"seen":false},"skyBlockAddonsDefenseTextChild":{"x":10.0,"y":8.0,"panelIndex":0,"seen":false},"skyBlockAddonsDefensePercentageChild":{"x":10.0,"y":12.0,"panelIndex":0,"seen":false},"skyBlockAddonsSpeedTextChild":{"x":19.0,"y":-28.0,"panelIndex":0,"seen":false},"skyblockAddonsBirchParkRainmaker":{"x":-80.0,"y":10.0,"panelIndex":0,"seen":false},"skyblockAddonsdarkAuctionoTimer":{"x":10.0,"y":130.0,"panelIndex":0,"seen":false},"skyblockAddonsEndstoneProtector":{"x":80.0,"y":130.0,"panelIndex":0,"seen":false},"skyblockAddonsMagmaTimer":{"x":10.0,"y":154.0,"panelIndex":0,"seen":false},"skyBlockAddonsPowerOrbStausChild":{"x":124.0,"y":-2.0,"panelIndex":0,"seen":false},"skyblockAddonsBoneDisplay":{"x":-80.0,"y":26.0,"panelIndex":0,"seen":false},"skyblockAddonsSkillDisplay":{"x":10.0,"y":92.0,"panelIndex":0,"seen":false},"skyblockAddonsSummoningEyeCounter":{"x":-80.0,"y":56.0,"panelIndex":0,"seen":false},"skyblockAddonsTickerChargesDisplay":{"x":-80.0,"y":42.0,"panelIndex":0,"seen":false},"skyblockAddonsZealotCounter":{"x":80.0,"y":144.0,"panelIndex":0,"seen":false},"skyblockAddonsZealotTotalCounter":{"x":80.0,"y":160.0,"panelIndex":0,"seen":false},"skyblockAddonsZealotPerEye":{"x":80.0,"y":176.0,"panelIndex":0,"seen":false},"bait_list":{"x":115.0,"y":72.0,"panelIndex":0,"seen":false},"sba_feature_warning":{"panelIndex":0,"seen":false},"zealot_kills":11},"toggleSneak":{"x":10.0,"y":10.0,"toggleSneak_enabled_bl":false,"panelIndex":4,"seen":false},"zoom":{"panelIndex":5,"seen":true},"hypixel_mod":{"panelIndex":6,"seen":true,"options":{"level_head_bl":true}},"hypixel_bedwars":{"panelIndex":7,"seen":true,"hypixel_bedwars_stats":{"position":"bottom_right","x":-10.0,"y":-40.0,"hypixel_bedwars_stats_enabled_bl":false,"panelIndex":0,"seen":false,"options":{"scale_nr":"0.84"}},"hypixel_bedwars_height_limit":{"hypixel_bedwars_height_limit_enabled_bl":false,"panelIndex":0,"seen":false},"hypixel_bedwars_resource_counter":{"position":"bottom_right","x":-228.0,"y":1.0,"panelIndex":0,"seen":false,"options":{"scale_nr":"1.02"}}},"armorstatus":{"armorstatus_enabled_bl":false,"panelIndex":8,"seen":false},"keystrokes":{"x":10.0,"y":46.0,"panelIndex":9,"seen":false},"coords":{"x":10.0,"y":24.0,"coords_enabled_bl":false,"panelIndex":10,"seen":false},"daycounter":{"panelIndex":11,"seen":false},"crosshair":{"panelIndex":12,"seen":true,"options":{"gap_nr":"2.0"}},"potioneffects":{"x":10.0,"panelIndex":13,"seen":false},"directionhud":{"y":4.0,"directionhud_enabled_bl":false,"panelIndex":14,"seen":true},"waypoints":{"panelIndex":15,"seen":false},"hitColor":{"panelIndex":16,"seen":false},"scoreboard":{"x":2.0,"y":-21.350006,"panelIndex":17,"seen":true,"options":{"scale_nr":"1.3","numbers_bl":true,"text_shadow_bl":true,"background_color_clr_nr":{"value":-2147483648}}},"potion_counter":{"y":62.0,"panelIndex":18,"seen":false},"ping":{"x":70.0,"y":86.0,"panelIndex":19,"seen":true},"motionBlur":{"panelIndex":20,"seen":false},"pack_organizer":{"panelIndex":21,"seen":false},"chat":{"panelIndex":22,"seen":true,"options":{"stackMessages_bl":true,"chatHeight_bl":true,"chat_bg_opacity_nr":"0.0"}},"tab":{"panelIndex":23,"seen":false},"nametag":{"nametag_enabled_bl":false,"panelIndex":24,"seen":true},"scrollable_tooltips":{"panelIndex":25,"seen":false},"uhc_overlay":{"panelIndex":26,"seen":false},"particleMultiplierMod":{"panelIndex":27,"seen":false},"nickHider":{"panelIndex":28,"seen":false},"cooldowns":{"x":-124.0,"cooldowns_enabled_bl":false,"panelIndex":29,"seen":false},"worldedit_cui":{"panelIndex":30,"seen":false},"clock":{"x":-10.0,"y":10.0,"panelIndex":31,"seen":false},"stopwatch":{"x":-10.0,"y":30.0,"panelIndex":32,"seen":false},"memory":{"x":-10.0,"y":50.0,"panelIndex":33,"seen":false},"combo":{"x":-10.0,"y":90.0,"panelIndex":34,"seen":false},"range":{"x":70.0,"y":106.0,"panelIndex":35,"seen":false},"time_changer":{"time_changer_enabled_bl":true,"panelIndex":36,"seen":true,"options":{"time_nr":"-18000"}},"serverAddressMod":{"x":70.0,"y":66.0,"panelIndex":37,"seen":true},"saturation":{"x":-10.0,"y":70.0,"panelIndex":38,"seen":false},"itemPhysic":{"panelIndex":39,"seen":false},"tntCountdown":{"panelIndex":40,"seen":false},"itemTrackerChild":{"x":10.0,"y":75.0,"panelIndex":41,"seen":true},"shinyPots":{"panelIndex":42,"seen":false},"glint_colorizer":{"panelIndex":43,"seen":false},"block_outline":{"panelIndex":44,"seen":false},"screenshot":{"panelIndex":45,"seen":false},"fov_mod":{"panelIndex":46,"seen":false},"textHotKey":{"panelIndex":47,"seen":false,"options":{"1_hk_hk":{"text":""}}},"mumble-link":{"panelIndex":48,"seen":false},"items2d":{"panelIndex":49,"seen":false},"bossbar":{"position":"top_right","x":-379.0,"bossbar_enabled_bl":false,"panelIndex":50,"seen":true,"options":{"render_bar_bl":false,"customBossBar_bl":false,"barColor_clr_nr":{"value":-16777046}}},"freelook":{"freelook_enabled_bl":false,"panelIndex":51,"seen":true,"options":{"freelook_kb":"KEY_Q"}},"teamview":{"teamview_enabled_bl":false,"panelIndex":52,"seen":true},"resource_display":{"panelIndex":53,"seen":true},"menu_blur":{"menu_blur_enabled_bl":false,"panelIndex":54,"seen":true,"options":{"blur_strength_nr":"0","blur_lunar_toggle_bl":false,"blur_inventory_toggle_bl":false,"blur_pause_toggle_bl":false}},"hitbox":{"panelIndex":55,"seen":true},"weather_changer":{"panelIndex":56,"seen":false}}
+{
+  "one_seven_visuals": {
+    "panelIndex": 0,
+    "seen": false
+  },
+  "fps": {
+    "x": 70,
+    "y": 46,
+    "panelIndex": 1,
+    "seen": true
+  },
+  "cps": {
+    "position": "bottom_right",
+    "y": 1,
+    "cps_enabled_bl": true,
+    "panelIndex": 2,
+    "seen": true,
+    "options": {
+      "rightCLick_bl": true,
+      "showCPSText_bl": false,
+      "shadow_bl": false,
+      "background_bl": false
+    }
+  },
+  "skyblockAddons": {
+    "panelIndex": 3,
+    "seen": false,
+    "skyBlockAddonsManaBarChild": {
+      "x": 40,
+      "y": -40,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsManaTextChild": {
+      "x": 40,
+      "y": -44,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsHealthBarChild": {
+      "x": -38,
+      "y": -40,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsHealthTextChild": {
+      "x": -40,
+      "y": -44,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDrillFuelBarChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDrillFuelTextChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsOverflowManaTextChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsProgressBarChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsEffHealthTextChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsDefenseIconChild": {
+      "x": 19,
+      "y": -40,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsDefenseTextChild": {
+      "x": 10,
+      "y": 8,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsDefensePercentageChild": {
+      "x": 10,
+      "y": 12,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsSpeedTextChild": {
+      "x": 19,
+      "y": -28,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsBirchParkRainmaker": {
+      "x": -80,
+      "y": 10,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsdarkAuctionoTimer": {
+      "x": 10,
+      "y": 130,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsEndstoneProtector": {
+      "x": 80,
+      "y": 130,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsMagmaTimer": {
+      "x": 10,
+      "y": 154,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsPowerOrbStausChild": {
+      "x": 124,
+      "y": -2,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsTrevorTracker": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsBoneDisplay": {
+      "x": -80,
+      "y": 26,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsSkillDisplay": {
+      "x": 10,
+      "y": 92,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsSummoningEyeCounter": {
+      "x": -80,
+      "y": 56,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsTickerChargesDisplay": {
+      "x": -80,
+      "y": 42,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsZealotCounter": {
+      "x": 80,
+      "y": 144,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsZealotTotalCounter": {
+      "x": 80,
+      "y": 160,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyblockAddonsZealotPerEye": {
+      "x": 80,
+      "y": 176,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "bait_list": {
+      "x": 115,
+      "y": 72,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sba_feature_warning": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDungeonMapChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDungeonMilestone": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDungeonCollectedEssences": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDungeonDeathCount": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaRockPetTracker": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDolphinPetTracker": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDungeonSecres": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaCandyCounter": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaFetchurToday": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaDragonTrackerChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaRevSlayerTrackerChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaTarantulaSlayerTrackerChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaSvenSlayerTrackerChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "sbaVoidgloomSlayerTrackerChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "skyBlockAddonsHealthDisplayChild": {
+      "panelIndex": 0,
+      "seen": false
+    },
+    "oresMined": 1,
+    "zealot_kills": 11
+  },
+  "toggleSneak": {
+    "x": 10,
+    "y": 10,
+    "toggleSneak_enabled_bl": false,
+    "panelIndex": 4,
+    "seen": true,
+    "options": {
+      "toggle_sprint_bl": false,
+      "double_tap_bl": false,
+      "showHudText_bl": false
+    }
+  },
+  "zoom": {
+    "panelIndex": 5,
+    "seen": true
+  },
+  "hypixel_mod": {
+    "panelIndex": 6,
+    "seen": true,
+    "options": {
+      "level_head_bl": true
+    }
+  },
+  "hypixel_bedwars": {
+    "panelIndex": 7,
+    "seen": true,
+    "hypixel_bedwars_stats": {
+      "position": "bottom_right",
+      "x": -10,
+      "y": -40,
+      "hypixel_bedwars_stats_enabled_bl": false,
+      "panelIndex": 0,
+      "seen": false,
+      "options": {
+        "scale_nr": "0.84"
+      }
+    },
+    "hypixel_bedwars_height_limit": {
+      "hypixel_bedwars_height_limit_enabled_bl": false,
+      "panelIndex": 0,
+      "seen": false
+    },
+    "hypixel_bedwars_resource_counter": {
+      "position": "bottom_right",
+      "x": -228,
+      "y": 1,
+      "panelIndex": 0,
+      "seen": false,
+      "options": {
+        "scale_nr": "1.02"
+      }
+    }
+  },
+  "armorstatus": {
+    "armorstatus_enabled_bl": false,
+    "panelIndex": 8,
+    "seen": false
+  },
+  "keystrokes": {
+    "x": 10,
+    "y": 46,
+    "panelIndex": 9,
+    "seen": false
+  },
+  "coords": {
+    "x": 10,
+    "y": 24,
+    "coords_enabled_bl": false,
+    "panelIndex": 10,
+    "seen": false
+  },
+  "daycounter": {
+    "panelIndex": 11,
+    "seen": false
+  },
+  "crosshair": {
+    "panelIndex": 12,
+    "seen": true,
+    "options": {
+      "gap_nr": "2.0"
+    }
+  },
+  "potioneffects": {
+    "x": 10,
+    "panelIndex": 13,
+    "seen": false
+  },
+  "directionhud": {
+    "y": 4,
+    "directionhud_enabled_bl": false,
+    "panelIndex": 14,
+    "seen": true
+  },
+  "waypoints": {
+    "panelIndex": 15,
+    "seen": false
+  },
+  "hitColor": {
+    "panelIndex": 16,
+    "seen": false
+  },
+  "scoreboard": {
+    "x": 2,
+    "y": -21.350006,
+    "panelIndex": 17,
+    "seen": true,
+    "options": {
+      "scale_nr": "1.3",
+      "numbers_bl": true,
+      "text_shadow_bl": true,
+      "background_color_clr_nr": {
+        "value": -2147483648
+      }
+    }
+  },
+  "potion_counter": {
+    "y": 62,
+    "panelIndex": 18,
+    "seen": false
+  },
+  "ping": {
+    "x": 70,
+    "y": 86,
+    "panelIndex": 19,
+    "seen": true
+  },
+  "motionBlur": {
+    "panelIndex": 20,
+    "seen": false
+  },
+  "pack_organizer": {
+    "panelIndex": 21,
+    "seen": false
+  },
+  "chat": {
+    "panelIndex": 22,
+    "seen": true,
+    "options": {
+      "stackMessages_bl": true,
+      "chatHeight_bl": true,
+      "chat_bg_opacity_nr": "0.0",
+      "chat_ping_sound_bl": false,
+      "smooth_chat_bl": false
+    }
+  },
+  "tab": {
+    "panelIndex": 23,
+    "seen": false
+  },
+  "nametag": {
+    "nametag_enabled_bl": false,
+    "panelIndex": 24,
+    "seen": true
+  },
+  "scrollable_tooltips": {
+    "panelIndex": 25,
+    "seen": false
+  },
+  "uhc_overlay": {
+    "panelIndex": 26,
+    "seen": false
+  },
+  "particleMultiplierMod": {
+    "panelIndex": 27,
+    "seen": false
+  },
+  "nickHider": {
+    "panelIndex": 28,
+    "seen": false
+  },
+  "cooldowns": {
+    "x": -124,
+    "cooldowns_enabled_bl": false,
+    "panelIndex": 29,
+    "seen": false
+  },
+  "worldedit_cui": {
+    "panelIndex": 30,
+    "seen": false
+  },
+  "clock": {
+    "x": -10,
+    "y": 10,
+    "panelIndex": 31,
+    "seen": false
+  },
+  "stopwatch": {
+    "x": -10,
+    "y": 30,
+    "panelIndex": 32,
+    "seen": false
+  },
+  "memory": {
+    "x": -10,
+    "y": 50,
+    "panelIndex": 33,
+    "seen": false
+  },
+  "combo": {
+    "x": -10,
+    "y": 90,
+    "panelIndex": 34,
+    "seen": false
+  },
+  "range": {
+    "x": 70,
+    "y": 106,
+    "panelIndex": 35,
+    "seen": false
+  },
+  "time_changer": {
+    "time_changer_enabled_bl": true,
+    "panelIndex": 36,
+    "seen": true,
+    "options": {
+      "time_nr": "-18000"
+    }
+  },
+  "serverAddressMod": {
+    "x": 70,
+    "y": 66,
+    "panelIndex": 37,
+    "seen": true
+  },
+  "saturation": {
+    "x": -10,
+    "y": 70,
+    "panelIndex": 38,
+    "seen": false
+  },
+  "colorsaturation": {
+    "panelIndex": 39,
+    "seen": false
+  },
+  "itemPhysic": {
+    "panelIndex": 40,
+    "seen": false
+  },
+  "tntCountdown": {
+    "panelIndex": 41,
+    "seen": false
+  },
+  "itemTrackerChild": {
+    "x": 10,
+    "y": 75,
+    "panelIndex": 42,
+    "seen": true
+  },
+  "shinyPots": {
+    "panelIndex": 43,
+    "seen": false
+  },
+  "glint_colorizer": {
+    "panelIndex": 44,
+    "seen": false
+  },
+  "block_outline": {
+    "panelIndex": 45,
+    "seen": false
+  },
+  "screenshot": {
+    "panelIndex": 46,
+    "seen": false
+  },
+  "fov_mod": {
+    "panelIndex": 47,
+    "seen": false
+  },
+  "textHotKey": {
+    "panelIndex": 48,
+    "seen": false,
+    "options": {
+      "1_hk_hk": {
+        "text": ""
+      }
+    }
+  },
+  "mumble-link": {
+    "panelIndex": 49,
+    "seen": false
+  },
+  "items2d": {
+    "panelIndex": 50,
+    "seen": false
+  },
+  "bossbar": {
+    "position": "top_right",
+    "x": -379,
+    "bossbar_enabled_bl": false,
+    "panelIndex": 51,
+    "seen": true,
+    "options": {
+      "render_bar_bl": false,
+      "customBossBar_bl": false,
+      "barColor_clr_nr": {
+        "value": -16777046
+      }
+    }
+  },
+  "freelook": {
+    "freelook_enabled_bl": false,
+    "panelIndex": 52,
+    "seen": true,
+    "options": {
+      "freelook_kb": "KEY_Q"
+    }
+  },
+  "teamview": {
+    "teamview_enabled_bl": false,
+    "panelIndex": 53,
+    "seen": true
+  },
+  "resource_display": {
+    "panelIndex": 54,
+    "seen": true
+  },
+  "menu_blur": {
+    "menu_blur_enabled_bl": false,
+    "panelIndex": 55,
+    "seen": true,
+    "options": {
+      "blur_strength_nr": "0",
+      "blur_lunar_toggle_bl": false,
+      "blur_inventory_toggle_bl": false,
+      "blur_pause_toggle_bl": false
+    }
+  },
+  "hitbox": {
+    "hitbox_enabled_bl": true,
+    "panelIndex": 56,
+    "seen": true
+  },
+  "weather_changer": {
+    "panelIndex": 57,
+    "seen": false
+  }
+}
