@@ -23,5 +23,5 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
        , alignSep = "}{"
        , template = "%StdinReader% \
                      \} %date% {\
-                     \%title% %status% <action=`playerctl -p vlc next` button=1>%next%</action>"
+                     \<action=`playerctl -p vlc next` button=1>%status%</action>"
        }
