@@ -3,6 +3,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter', {'branch': 'master'}
 Plug 'bluz71/vim-moonfly-colors'
 Plug 'mhinz/vim-startify'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
@@ -64,7 +65,36 @@ set number
 
 " Wrap words
 set linebreak
-"Make search case insensitive
+
+"Fancy color scheme
+colorscheme moonfly
+set termguicolors
+let g:startify_custom_header = []
+
+" Highlight trailing whitespace
+highlight TrailingSpace guibg=red
+autocmd BufWinEnter <buffer> match TrailingSpace /\s\+$/
+autocmd InsertEnter <buffer> match TrailingSpace /\s\+\%#\@<!$/
+autocmd InsertLeave <buffer> match TrailingSpace /\s\+$/
+autocmd BufWinLeave <buffer> call clearmatches()
+
+" Show indentation
+set list
+set listchars+=tab:>·,lead:␣,trail:␣
+set tabstop=4
+set shiftwidth=4
+
+let g:indentLine_defaultGroup = 'WhiteSpace'
+let g:indentLine_char = '▏'
+
+hi NonText guifg=#3d475b
+hi WhiteSpace guifg=#3d475b
+
+map <F2> :set tabstop=2 <bar> set shiftwidth=2 <bar> set expandtab  <CR>
+map <F3> :set tabstop=4 <bar> set shiftwidth=4 <bar> set expandtab& <CR>
+map <F4> :set tabstop=4 <bar> set shiftwidth=4 <bar> set expandtab  <CR>
+
+" Make search case insensitive
 set ignorecase
 
 "Swap to tabs
@@ -77,7 +107,3 @@ nnoremap <silent>    <A-6> 6gt <CR>
 nnoremap <silent>    <A-7> 7gt <CR>
 nnoremap <silent>    <A-8> 8gt <CR>
 
-"Fancy color scheme
-colorscheme moonfly
-set termguicolors
-let g:startify_custom_header = []
