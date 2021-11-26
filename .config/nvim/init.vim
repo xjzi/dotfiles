@@ -72,11 +72,12 @@ set termguicolors
 let g:startify_custom_header = []
 
 " Highlight trailing whitespace
-highlight TrailingSpace guibg=red
-autocmd BufWinEnter <buffer> match TrailingSpace /\s\+$/
-autocmd InsertEnter <buffer> match TrailingSpace /\s\+\%#\@<!$/
-autocmd InsertLeave <buffer> match TrailingSpace /\s\+$/
-autocmd BufWinLeave <buffer> call clearmatches()
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
+highlight ExtraWhiteSpace guibg=red ctermbg=red   
+match ExtraWhitespace /\s\+$/
 
 " Show indentation
 set list
