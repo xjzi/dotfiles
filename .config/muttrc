@@ -1,0 +1,5 @@
+set spoolfile=imap://admin@mail.henryhoff.org/INBOX
+set folder=imap://admin@mail.henryhoff.org
+set smtp_url=smtp://admin@mail.henryhoff.org
+set from=admin@mail.henryhoff.org
+set record="$HOME/.config/sent"
