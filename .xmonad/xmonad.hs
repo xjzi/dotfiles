@@ -23,7 +23,7 @@ import qualified Data.Map        as M
 
 myTerminal = "st"
 
-myLauncher = "rofi -show run"
+myLauncher = "dmenu_run"
 
 myXmobarrc = "~/.config/.xmobar/xmobarrc"
 

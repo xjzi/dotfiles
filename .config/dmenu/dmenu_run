@@ -1,0 +1,4 @@
+#!/bin/sh
+emacs() { emacsclient -ca ""; }
+hibernate() { st sh -c "sudo tee /sys/power/state <<< disk"; }
+eval $(dmenu "$@")
