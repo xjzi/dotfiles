@@ -203,7 +203,7 @@
       "panelIndex": 0,
       "seen": false
     },
-    "sbaDungeonSecres": {
+    "sbaDungeonSecrets": {
       "panelIndex": 0,
       "seen": false
     },
@@ -239,7 +239,7 @@
       "panelIndex": 0,
       "seen": false
     },
-    "oresMined": 1,
+    "oresMined": 72,
     "zealot_kills": 11
   },
   "toggleSneak": {
@@ -295,6 +295,10 @@
       }
     }
   },
+  "quickplay": {
+    "panelIndex": 0,
+    "seen": false
+  },
   "armorstatus": {
     "armorstatus_enabled_bl": false,
     "panelIndex": 8,
@@ -321,8 +325,10 @@
     "panelIndex": 12,
     "seen": true,
     "options": {
-      "gap_nr": "2.0"
-    }
+      "gap_nr": "2",
+      "help_box_open": true
+    },
+    "custom_crosshair": "LCCH-1-AA"
   },
   "potioneffects": {
     "x": 10,
@@ -494,6 +500,10 @@
     "panelIndex": 43,
     "seen": false
   },
+  "skinLayers3D": {
+    "panelIndex": 0,
+    "seen": false
+  },
   "glint_colorizer": {
     "panelIndex": 44,
     "seen": false
@@ -549,6 +559,10 @@
       "freelook_kb": "KEY_Q"
     }
   },
+  "snaplook": {
+    "panelIndex": 0,
+    "seen": false
+  },
   "teamview": {
     "teamview_enabled_bl": false,
     "panelIndex": 53,
@@ -570,7 +584,6 @@
     }
   },
   "hitbox": {
-    "hitbox_enabled_bl": true,
     "panelIndex": 56,
     "seen": true
   },
