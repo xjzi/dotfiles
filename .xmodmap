@@ -1,8 +1,0 @@
-! Caps_Lock -> Alt_L
-keycode 66 = Alt_L
-
-! Alt_L -> Escape
-keycode 64 = Escape
-
-! Remove Caps_Lock
-clear lock
