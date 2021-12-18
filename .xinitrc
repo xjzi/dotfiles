@@ -1,10 +1,10 @@
 #!/bin/sh
-if [ -f $HOME/.xrandr ]; then
-	source $HOME/.xrandr
+if [ -f $HOME/.config/xrandrrc ]; then
+	source $HOME/.config/xrandrrc
 fi
 
-if [ -f $HOME/.xmodmap ]; then
-	xmodmap .xmodmap
+if [ -f $HOME/.config/xkbrc ]; then
+	xkbcomp $HOME/.config/xkbrc $DISPLAY
 fi
 
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
