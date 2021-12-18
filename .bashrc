@@ -16,6 +16,9 @@ alias cp='cp -r'
 # Hibernate system
 alias hibernate='sudo bash -c "echo -n disk > /sys/power/state"'
 
+# Start an emacs demon if necessary, then connect to it and return
+alias emacs='emacsclient -cna ""'
+
 # Good for things like mutt
 export EDITOR="nvim"
 
