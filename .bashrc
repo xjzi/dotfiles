@@ -1,5 +1,4 @@
 # Bare git repository to keep track of config in home folder
-#alias config='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias config='git --git-dir=$HOME/.config/dotfiles/ --work-tree=$HOME'
 alias ls='ls --color=auto'
 alias cat='bat -p'
