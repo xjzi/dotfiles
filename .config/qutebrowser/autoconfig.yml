@@ -13,3 +13,5 @@ settings:
     - always
   content.javascript.can_access_clipboard:
     global: true
+  downloads.location.directory:
+    global: '~'
