@@ -518,18 +518,19 @@ paste(void)
 	drawmenu();
 }
 
-// Actually reads from config.h
 static void
-readstdin(void)
+readitems(void)
 {
-	size_t i, imax = 0, size = 0;
+	const size_t size = sizeof ITEMS;
+	const size_t length = size / sizeof ITEMS[0];
+	if (!(items = malloc(size + 1)))
+		die("cannot malloc %u bytes:", size + 1);
+
+	size_t i, imax = 0;
 	unsigned int tmpmax = 0;
 
-	/* read each line from stdin and add it to the item list */
-	for (i = 0; i < NUMITEMS; i++) {
-		if (i + 1 >= size / sizeof *items)
-			if (!(items = realloc(items, (size += BUFSIZ))))
-				die("cannot realloc %u bytes:", size);
+	/* read each line from LINES and add it to the item list */
+	for (i = 0; i < length; i++) {
 		if (!(items[i].text = strdup(ITEMS[i])))
 			die("cannot strdup %u bytes:", strlen(ITEMS[i]) + 1);
 		items[i].out = 0;
@@ -539,9 +540,8 @@ readstdin(void)
 			imax = i;
 		}
 	}
-	if (items)
-		items[i].text = NULL;
-	inputw = items ? TEXTW(items[imax].text) : 0;
+	items[i].text = NULL;
+	inputw = TEXTW(items[imax].text);
 	lines = MIN(lines, i);
 }
 
@@ -757,9 +757,9 @@ main(int argc, char *argv[])
 
 	if (fast && !isatty(0)) {
 		grabkeyboard();
-		readstdin();
+		readitems();
 	} else {
-		readstdin();
+		readitems();
 		grabkeyboard();
 	}
 	setup();
