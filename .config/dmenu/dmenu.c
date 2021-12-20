@@ -21,7 +21,7 @@
 
 /* macros */
 #define INTERSECT(x,y,w,h,r)  (MAX(0, MIN((x)+(w),(r).x_org+(r).width)  - MAX((x),(r).x_org)) \
-                             * MAX(0, MIN((y)+(h),(r).y_org+(r).height) - MAX((y),(r).y_org)))
+                            && MAX(0, MIN((y)+(h),(r).y_org+(r).height) - MAX((y),(r).y_org)))
 #define LENGTH(X)             (sizeof X / sizeof X[0])
 #define TEXTW(X)              (drw_fontset_getwidth(drw, (X)) + lrpad)
 
@@ -521,10 +521,10 @@ paste(void)
 static void
 readitems(void)
 {
-	const size_t size = sizeof ITEMS;
-	const size_t length = size / sizeof ITEMS[0];
-	if (!(items = malloc(size + 1)))
-		die("cannot malloc %u bytes:", size + 1);
+	const size_t length = sizeof ITEMS / sizeof *ITEMS;
+	const size_t size = MAX(length, BUFSIZ);
+	if (!(items = malloc(size)))
+		die("cannot malloc %u bytes:", size);
 
 	size_t i, imax = 0;
 	unsigned int tmpmax = 0;
