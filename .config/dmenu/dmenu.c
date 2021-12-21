@@ -89,6 +89,17 @@ calcoffsets(void)
 			break;
 }
 
+static char *
+resolvecommand(char *command) {
+	size_t i;
+	for (i = 0; i < sizeof commands; i++) {
+		if (!strcmp(command, commands[i].key)) {
+			return commands[i].val;
+		}
+	}
+	return command;
+}
+
 static void
 cleanup(void)
 {
@@ -464,9 +475,11 @@ insert:
 		break;
 	case XK_Return:
 	case XK_KP_Enter:
-		puts((sel && !(ev->state & ShiftMask)) ? sel->text : text);
+		;
+		char *command = resolvecommand((sel && !(ev->state & ShiftMask)) ? sel->text : text);
 		if (!(ev->state & ControlMask)) {
 			cleanup();
+			system(command);
 			exit(0);
 		}
 		if (sel)
@@ -521,7 +534,7 @@ paste(void)
 static void
 readitems(void)
 {
-	const size_t length = sizeof ITEMS / sizeof *ITEMS;
+	const size_t length = sizeof commands / sizeof *commands;
 	const size_t size = MAX(length, BUFSIZ);
 	if (!(items = malloc(size)))
 		die("cannot malloc %u bytes:", size);
@@ -531,10 +544,10 @@ readitems(void)
 
 	/* read each line from LINES and add it to the item list */
 	for (i = 0; i < length; i++) {
-		if (!(items[i].text = strdup(ITEMS[i])))
-			die("cannot strdup %u bytes:", strlen(ITEMS[i]) + 1);
+		if (!(items[i].text = strdup(commands[i].key)))
+			die("cannot strdup %u bytes:", strlen(commands[i].key) + 1);
 		items[i].out = 0;
-		drw_font_getexts(drw->fonts, ITEMS[i], strlen(ITEMS[i]), &tmpmax, NULL);
+		drw_font_getexts(drw->fonts, commands[i].key, strlen(commands[i].key), &tmpmax, NULL);
 		if (tmpmax > inputw) {
 			inputw = tmpmax;
 			imax = i;
