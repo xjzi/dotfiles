@@ -23,7 +23,7 @@ import qualified Data.Map        as M
 
 myTerminal = "st"
 
-myLauncher = "dmenu_run"
+myLauncher = "dmenu"
 
 myXmobarrc = "~/.config/.xmobar/xmobarrc"
 
