@@ -1,10 +1,18 @@
 /* See LICENSE file for copyright and license details. */
 /* Default settings; can be overriden by command line. */
 
-static const char *ITEMS[] = {
-	"emacs",
-	"hibernate",
-	"qutebrowser"
+struct command {
+	char *key;
+	char *val;
+};
+
+#define COMMAND(a)  {a, a}
+#define ALIAS(a, b) {a, b}
+
+static const struct command commands[] = {
+	COMMAND("qutebrowser"),
+	ALIAS("hibernate", "st sh -c \"sudo tee /sys/power/state <<< disk\""),
+	ALIAS("emacs", "emacsclient -ca \"\"")
 };
 
 static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
