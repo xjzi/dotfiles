@@ -92,7 +92,7 @@ calcoffsets(void)
 static char *
 resolvecommand(char *command) {
 	size_t i;
-	for (i = 0; i < sizeof commands; i++) {
+	for (i = 0; i < sizeof commands / sizeof *commands; i++) {
 		if (!strcmp(command, commands[i].key)) {
 			return commands[i].val;
 		}
