@@ -1224,10 +1224,11 @@ xkb_symbols "pc+us+inet(evdev)" {
         symbols[Group1]= [          Escape ]
     };
     modifier_map Mod1 { <LALT> };
-    key <LCTL> {         [       Super_L ] };
+    key <LCTL> {         [       Control_L ] };
     key <RCTL> {         [       Super_R ] };
     key <CAPS> {         [     Control_L ] };
     modifier_map Control { <CAPS> };
+    modifier_map Control { <LCTL> };
 
     key  <ESC> {         [          Escape ] };
     key <AE01> {         [               1,          exclam ] };
