@@ -10,9 +10,16 @@ struct command {
 #define ALIAS(a, b) {a, b}
 
 static const struct command commands[] = {
+	COMMAND("lunarclient"),
 	COMMAND("qutebrowser"),
+	COMMAND("keepassxc"),
+	COMMAND("gimp"),
+	COMMAND("pavucontrol"),
 	ALIAS("hibernate", "st sh -c \"sudo tee /sys/power/state <<< disk\""),
-	ALIAS("emacs", "emacsclient -ca \"\"")
+	ALIAS("emacs", "emacsclient -ca \"\""),
+	ALIAS("discard", "rm \"$(playerctl -p vlc metadata xesam:url | cut -c 8- | urlencode -d)\"; playerctl -p vlc next"),
+	ALIAS("jazz", "cvlc /home/henry/songs/jazz"),
+	ALIAS("electronic", "cvlc /home/henry/songs/electronic")
 };
 
 static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
