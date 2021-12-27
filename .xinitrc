@@ -1,10 +1,12 @@
 #!/bin/sh
-if [ -f $HOME/.config/xrandrrc ]; then
-	source $HOME/.config/xrandrrc
+CONFIG=/home/henry/.config/
+
+if [ -f $CONFIG/xrandrrc ]; then
+	source $CONFIG/xrandrrc
 fi
 
-if [ -f $HOME/.config/xkbrc ]; then
-	xkbcomp $HOME/.config/xkbrc $DISPLAY
+if [ -f $CONFIG/xkbrc ]; then
+	xkbcomp $CONFIG/xkbrc $DISPLAY
 fi
 
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
@@ -14,4 +16,4 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-exec xmonad
+$CONFIG/bar.sh & exec dwm
