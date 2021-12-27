@@ -6,8 +6,6 @@ alias cat='bat -p'
 alias cd='cd -P'
 # Copy the whole directory
 alias cp='cp -r'
-# Always pipe git into less
-alias git='git -p'
 
 # Cleaning up home directory
 export LESSHISTFILE=/dev/null
