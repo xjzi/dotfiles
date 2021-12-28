@@ -1,5 +1,5 @@
 #!/bin/sh
-CONFIG=/home/henry/.config/
+CONFIG=/home/henry/.config
 
 if [ -f $CONFIG/xrandrrc ]; then
 	source $CONFIG/xrandrrc
