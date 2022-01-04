@@ -18,8 +18,12 @@ static const struct command commands[] = {
 	ALIAS("hibernate", "st sh -c \"sudo tee /sys/power/state <<< disk\""),
 	ALIAS("emacs", "emacsclient -ca \"\""),
 	ALIAS("discard", "rm \"$(playerctl -p vlc metadata xesam:url | cut -c 8- | urlencode -d)\"; playerctl -p vlc next"),
+	ALIAS("toggle", "playerctl -p vlc play-pause"),
+	ALIAS("skip", "playerctl -p vlc next"),
 	ALIAS("jazz", "cvlc /home/henry/songs/jazz"),
-	ALIAS("electronic", "cvlc /home/henry/songs/electronic")
+	ALIAS("electronic", "cvlc /home/henry/songs/electronic"),
+	ALIAS("screenshot", "import out.png"),
+	COMMAND("slock")
 };
 
 static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
