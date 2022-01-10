@@ -67,3 +67,16 @@
 
 (require 'ccls)
 (setq ccls-executable "~/.config/ccls.sh")
+
+(require 'ox-publish)
+(setq org-publish-project-alist '(
+    ("website"
+        :base-directory "~/code/website/org"
+        :base-extension "org"
+        :publishing-directory "~/code/website/html"
+        :recursive t
+        :publishing-function org-html-publish-to-html
+        :completion-function (lambda (_) (shell-command
+	    "rsync -r --delete ~/code/website/html/ html@henryhoff.org:/usr/share/nginx/html/"))
+    )
+))
