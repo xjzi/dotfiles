@@ -65,10 +65,13 @@
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 (add-hook 'prog-mode-hook 'highlight-indent-guides-auto-set-faces)
 
-(require 'ccls)
-(setq ccls-executable "~/.config/ccls.sh")
+;;(require 'ccls)
+;;(setq ccls-executable "~/.config/ccls.sh")
 
 (require 'ox-publish)
+(defun website-sync (_)
+    (shell-command
+        "rsync -r --delete ~/code/website/html/ html@henryhoff.org:/usr/share/nginx/html/"))
 (setq org-publish-project-alist '(
     ("website"
         :base-directory "~/code/website/org"
@@ -76,7 +79,14 @@
         :publishing-directory "~/code/website/html"
         :recursive t
         :publishing-function org-html-publish-to-html
-        :completion-function (lambda (_) (shell-command
-	    "rsync -r --delete ~/code/website/html/ html@henryhoff.org:/usr/share/nginx/html/"))
+        :completion-function website-sync
     )
 ))
+
+(defun org-sync ()
+  (interactive)
+  (shell-command "git commit -am $(date -I) && git push")
+  (print! "~/org synced to remote"))
+
+(map! :nv "C-a" 'evil-numbers/inc-at-pt)
+(map! :nv "C-x" 'evil-numbers/dec-at-pt)

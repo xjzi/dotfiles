@@ -17,12 +17,12 @@ static const struct command commands[] = {
 	COMMAND("pavucontrol"),
 	ALIAS("hibernate", "st sh -c \"sudo tee /sys/power/state <<< disk\""),
 	ALIAS("emacs", "emacsclient -ca \"\""),
-	ALIAS("discard", "rm \"$(playerctl -p vlc metadata xesam:url | cut -c 8- | urlencode -d)\"; playerctl -p vlc next"),
+	ALIAS("discard", "mv \"$(playerctl -p vlc metadata xesam:url | cut -c 8- | urlencode -d)\" /tmp; playerctl -p vlc next"),
 	ALIAS("toggle", "playerctl -p vlc play-pause"),
 	ALIAS("skip", "playerctl -p vlc next"),
 	ALIAS("jazz", "cvlc /home/henry/songs/jazz"),
 	ALIAS("electronic", "cvlc /home/henry/songs/electronic"),
-	ALIAS("screenshot", "import out.png"),
+	ALIAS("screenshot", "import /tmp/out.png && xclip -selection clipboard -t image/png /tmp/out.png"),
 	COMMAND("slock")
 };
 
